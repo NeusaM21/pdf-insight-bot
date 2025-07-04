@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, Response
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
@@ -17,32 +17,30 @@ app = Flask(__name__)
 def home():
     return "✅ SmartBot com Gemini está rodando!"
 
-# Rota principal que recebe a mensagem e responde com Gemini
+# Rota principal que recebe a mensagem do WhatsApp e responde
 @app.route("/webhook", methods=["POST"])
 def responder():
     try:
-        dados = request.get_json()
-        mensagem = dados.get("mensagem", "")
+        # Twilio envia a mensagem no campo "Body"
+        mensagem = request.form.get("Body")
 
         if not mensagem:
-            return jsonify({"erro": "Nenhuma mensagem recebida"}), 400
+            return Response("⚠️ Nenhuma mensagem recebida.", mimetype="text/plain"), 400
 
         # Cria o modelo Gemini (modelo leve e gratuito)
         modelo = genai.GenerativeModel("gemini-1.5-flash")
 
-        # Gera a resposta com base na mensagem
+        # Gera a resposta
         resposta = modelo.generate_content(mensagem)
 
-        # Garante que mesmo sem texto o bot responda algo seguro
+        # Extrai o texto da resposta
         resposta_texto = getattr(resposta, "text", "⚠️ Sem resposta gerada.")
 
-        return jsonify({
-            "mensagem_usuario": mensagem,
-            "resposta_bot": resposta_texto
-        })
+        # Twilio espera um retorno simples em texto puro
+        return Response(resposta_texto, mimetype="text/plain")
 
     except Exception as e:
-        return jsonify({"erro": str(e)}), 500
+        return Response(f"❌ Erro: {str(e)}", mimetype="text/plain"), 500
 
 # Executa o servidor Flask
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
-# Ignorar arquivos sensíveis
+# Ignorar arquivos sensíveis e caches
 .env
 __pycache__/
 *.pyc
+requirements-full.txt
