@@ -26,4 +26,4 @@ cd smartbot-gpt-whatsapp
 ```
 
 **✍️ Autor**  
-Projeto criado por [MrsM21](https://github.com/MrsM21) para fins educacionais, portfólio pessoal e demonstração prática de integração com Inteligência Artificial via Gemini API.
+Projeto criado por [NeusaM21](https://github.com/NeusaM21) para fins educacionais, portfólio pessoal e demonstração prática de integração com Inteligência Artificial via Gemini API.
