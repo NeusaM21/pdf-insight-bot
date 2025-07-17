@@ -30,6 +30,12 @@ Este projeto é um chatbot inteligente baseado em IA, integrado ao WhatsApp (sim
 
 ---
 
+## ✨ Funcionalidades extras
+
+- ✅ **Destaque visual no terminal** com palavras-chave inteligentes como "Tema", "Setor", "Tecnologia" para facilitar a leitura da resposta da IA.
+
+---
+
 ## 💬 Exemplo de uso
 
 > **Usuário no WhatsApp:**  
