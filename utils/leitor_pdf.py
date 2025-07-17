@@ -2,12 +2,16 @@ import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 
-def carregar_base_pdf(pasta_pdf="data/documents", chave_gemini=None):
+def carregar_base_pdf(pasta_pdf=None, chave_gemini=None):
     if not chave_gemini:
         raise ValueError("Você precisa fornecer sua chave da API Gemini.")
+    
+    # Define caminho absoluto se não for passado
+    if pasta_pdf is None:
+        pasta_pdf = os.path.join(os.getcwd(), "data", "documents")
 
     # Carrega todos os PDFs da pasta
     documentos = []
