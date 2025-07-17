@@ -115,7 +115,7 @@ Projeto criado por [NeusaM21](https://github.com/NeusaM21) para fins educacionai
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT). Use, adapte e compartilhe com créditos. 😉
+Este projeto está licenciado sob a [MIT License](./LICENSE). Use, adapte e compartilhe com créditos. 😉
 
 
 
