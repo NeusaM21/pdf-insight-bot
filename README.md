@@ -14,7 +14,7 @@ Este projeto é um chatbot inteligente baseado em IA, integrado ao WhatsApp (sim
 - [🛠️ Tecnologias Usadas](#️-tecnologias-usadas)
 - [🚀 Como executar localmente](#-como-executar-localmente)
 - [📈 Próximas melhorias](#-próximas-melhorias)
-- [✍️ Autor](#-autor)
+- [✍️ Autor](#autor)
 - [📝 Licença](#-licença)
 
 ---
@@ -107,9 +107,10 @@ python app.py
 
 ---
 
-## ✍️ Autor
+## Autor
 
-Projeto criado por [NeusaM21](https://github.com/NeusaM21) para fins educacionais, demonstração e portfólio pessoal de automação com IA.
+✍️ Projeto criado por [NeusaM21](https://github.com/NeusaM21) para fins educacionais...
+
 
 ---
 
