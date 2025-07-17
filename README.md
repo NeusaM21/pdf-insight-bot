@@ -21,16 +21,19 @@ Este projeto é um chatbot inteligente baseado em IA, integrado ao WhatsApp (sim
 
 ## 💡 Funcionalidades
 
-- ✅ Integração com a API Gemini (Google AI)  
-- ✅ Requisições via Webhook com Flask  
-- ✅ Respostas inteligentes com base em contexto  
-- ✅ Usa informações de um arquivo `.txt` como fonte (ex: planos de assinatura)  
-- ✅ Pronto para conectar com WhatsApp Business API ou Twilio  
-- ✅ Projeto ideal para estudo, demonstração e portfólio  
+## 💡 Funcionalidades
+
+- ✅ Integração com a API Gemini (Google AI)
+- ✅ Requisições via Webhook com Flask
+- ✅ Respostas inteligentes com base em contexto
+- ✅ Usa informações de um arquivo `.txt` como fonte (ex: planos de assinatura)
+- ✅ Indexação de múltiplos PDFs com respostas contextuais e destaque inteligente de palavras-chave no terminal
+- ✅ Pronto para conectar com WhatsApp Business API ou Twilio
+- ✅ Projeto ideal para estudo, demonstração e portfólio
 
 ---
 
-## ✨ Funcionalidades extras
+## ✨ Funcionalidade extra
 
 - ✅ **Destaque visual no terminal** com palavras-chave inteligentes como "Tema", "Setor", "Tecnologia" para facilitar a leitura da resposta da IA.
 
