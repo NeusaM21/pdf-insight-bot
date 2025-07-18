@@ -104,7 +104,7 @@ pdf-insight-bot/
 
 ## ✍️ Autor
 
-Projeto criado por **NeusaM21** como parte do seu portfólio em IA aplicada. Feito com carinho, estudo e ✨ café.
+Projeto criado por [**NeusaM21**](https://github.com/NeusaM21) como parte do seu portfólio em IA aplicada. Feito com carinho, estudo e ✨ café.
 
 ---
 
