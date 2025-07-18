@@ -45,77 +45,18 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 
 pdf-insight-bot/
 ├── utils/
-│   └── leitor_pdf.py
+│   └── leitor_pdf.py
 ├── data/
-│   └── documents/
-│       ├── inteligencia_artificial.pdf
-│       ├── blockchain_no_mercado.pdf
-│       └── impacto_da_automacao.pdf
+│   └── documents/
+│       ├── inteligencia_artificial.pdf
+│       ├── blockchain_no_mercado.pdf
+│       └── impacto_da_automacao.pdf
 ├── teste_leitor_pdf.py
 ├── .env.example
 ├── README.md
 └── capa.png
 
 ---
-
-# 📄 PDF Insight Bot (com Gemini API)
-
-Este projeto é um **agente inteligente de PDF** que lê, entende e responde perguntas sobre documentos, usando o modelo **Gemini 1.5 Flash da Google AI**. Ideal para estudar IA aplicada, criar portfólio ou até mesmo automatizar atendimento com base em documentos técnicos e comerciais.
-
----
-
-## 📚 Sumário
-
-* [💡 Funcionalidades](#-funcionalidades)
-* [💬 Exemplo de uso](#-exemplo-de-uso)
-* [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-* [🛠️ Tecnologias Usadas](#️-tecnologias-usadas)
-* [🚀 Como executar localmente](#-como-executar-localmente)
-* [📈 Próximas melhorias](#-próximas-melhorias)
-* [✍️ Autor](#️-autor)
-* [📝 Licença](#-licença)
-
----
-
-## 💡 Funcionalidades
-
-✅ **Integração com a API Gemini** (Google AI)
-✅ Leitura de **múltiplos PDFs automaticamente**
-✅ Geração de **embeddings com LangChain e FAISS**
-✅ Respostas **contextuais** com base no conteúdo real dos PDFs
-✅ Destaque inteligente de palavras-chave no terminal
-✅ Projeto leve, didático e pronto para portfólio
-
-✨ **Funcionalidade extra:**
-✅ Destaque visual no terminal com palavras-chave como **Tema, Tecnologia, Setor** para facilitar a leitura da resposta da IA.
-
----
-
-## 💬 Exemplo de uso
-
-**Pergunta:** Qual é o tema principal do documento?
-
-**Resposta:** O 📚 **TEMA** principal do documento é o impacto da 🧠 **TECNOLOGIA** blockchain no mercado e a regulamentação das moedas virtuais.
-
----
-
-## 📂 Estrutura do Projeto
-
-
-pdf-insight-bot/
-├── utils/
-│   └── leitor\_pdf.py
-├── data/
-│   └── documents/
-│       ├── inteligencia\_artificial.pdf
-│       ├── blockchain\_no\_mercado.pdf
-│       └── impacto\_da\_automacao.pdf
-├── teste\_leitor\_pdf.py
-├── .env.example
-├── README.md
-└── capa.png
-
-````
 
 ## 🛠️ Tecnologias Usadas
 
