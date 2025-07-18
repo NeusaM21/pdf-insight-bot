@@ -43,6 +43,7 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 
 ## 📂 Estrutura do Projeto
 
+```
 pdf-insight-bot/
 ├── utils/
 │    └── leitor_pdf.py
@@ -55,7 +56,7 @@ pdf-insight-bot/
 ├── .env.example
 ├── README.md
 └── capa.png
-
+```
 ---
 
 ## 🛠️ Tecnologias Usadas
