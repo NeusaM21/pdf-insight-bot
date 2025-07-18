@@ -1,131 +1,79 @@
 ![Capa do Projeto](capa.png)
 
-# 🤖 SmartBot GPT WhatsApp (com Gemini API)
+# 📄 PDF Insight Bot (com Gemini API)
 
-Este projeto é um chatbot inteligente baseado em IA, integrado ao WhatsApp (simulado via API Flask), que responde perguntas de forma contextual usando o modelo **Gemini 1.5 Flash** da Google AI.
+Este projeto é um agente inteligente de PDF que lê, entende e responde perguntas sobre documentos, usando o modelo Gemini 1.5 Flash da Google AI. Ideal para estudar IA aplicada, criar portfólio ou até mesmo automatizar atendimento com base em documentos técnicos e comerciais.
 
----
+## 📚 Sumário  
+- 💡 Funcionalidades  
+- 💬 Exemplo de uso  
+- 📂 Estrutura do Projeto  
+- 🛠️ Tecnologias Usadas  
+- 🚀 Como executar localmente  
+- 📈 Próximas melhorias  
+- ✍️ Autor  
+- 📝 Licença  
 
-## 📚 Sumário
+## 💡 Funcionalidades  
+✅ Integração com a API Gemini (Google AI)  
+✅ Leitura de múltiplos PDFs automaticamente  
+✅ Geração de embeddings com LangChain e FAISS  
+✅ Respostas contextuais com base no conteúdo real dos PDFs  
+✅ Destaque inteligente de palavras-chave no terminal  
+✅ Projeto leve, didático e pronto para portfólio  
 
-- [💡 Funcionalidades](#-funcionalidades)
-- [💬 Exemplo de uso](#-exemplo-de-uso)
-- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [🛠️ Tecnologias Usadas](#️-tecnologias-usadas)
-- [🚀 Como executar localmente](#-como-executar-localmente)
-- [📈 Próximas melhorias](#-próximas-melhorias)
-- [✍️ Autor](#autor)
-- [📝 Licença](#-licença)
+✨ Funcionalidade extra:  
+✅ Destaque visual no terminal com palavras-chave como Tema, Tecnologia, Setor para facilitar a leitura da resposta da IA.
 
----
+## 💬 Exemplo de uso  
+**Pergunta:** Qual é o tema principal do documento?  
+**Resposta:** O 📚 TEMA principal do documento é o impacto da 🧠 TECNOLOGIA blockchain no mercado e a regulamentação das moedas virtuais.
 
-## 💡 Funcionalidades
+## 📂 Estrutura do Projeto  
+pdf-insight-bot/  
+├── utils/  
+│   └── leitor_pdf.py  
+├── data/  
+│   └── documents/  
+│       ├── inteligencia_artificial.pdf  
+│       ├── blockchain_no_mercado.pdf  
+│       └── impacto_da_automacao.pdf  
+├── teste_leitor_pdf.py  
+├── .env.example  
+├── README.md  
+└── capa.png  
 
-## 💡 Funcionalidades
+## 🛠️ Tecnologias Usadas  
+Python 3, LangChain, Gemini API (Google AI), FAISS, python-dotenv  
 
-- ✅ Integração com a API Gemini (Google AI)
-- ✅ Requisições via Webhook com Flask
-- ✅ Respostas inteligentes com base em contexto
-- ✅ Usa informações de um arquivo `.txt` como fonte (ex: planos de assinatura)
-- ✅ Indexação de múltiplos PDFs com respostas contextuais e destaque inteligente de palavras-chave no terminal
-- ✅ Pronto para conectar com WhatsApp Business API ou Twilio
-- ✅ Projeto ideal para estudo, demonstração e portfólio
+## 🚀 Como executar localmente  
+Clone o repositório:  
+git clone https://github.com/MrsM21/pdf-insight-bot.git  
+cd pdf-insight-bot  
 
----
+Instale as dependências:  
+pip install -r requirements.txt  
 
-## ✨ Funcionalidade extra
+Crie o arquivo .env:  
+GEMINI_API_KEY=sua-chave-aqui  
 
-- ✅ **Destaque visual no terminal** com palavras-chave inteligentes como "Tema", "Setor", "Tecnologia" para facilitar a leitura da resposta da IA.
+Adicione seus arquivos .pdf na pasta:  
+data/documents/  
 
----
+Execute o script de teste:  
+python teste_leitor_pdf.py  
 
-## 💬 Exemplo de uso
+## 📈 Próximas melhorias  
+[ ] Salvar a base vetorial (FAISS) em .pkl  
+[ ] Interface web com Gradio ou Streamlit  
+[ ] Versão online com deploy gratuito (Replit, Render)  
+[ ] Integração com mini-CRM para armazenar perguntas e contatos  
 
-> **Usuário no WhatsApp:**  
-> "Quais são os planos disponíveis?"
+## ✍️ Autor  
+Projeto criado por [NeusaM21](https://github.com/NeusaM21) como parte do seu portfólio em IA aplicada. Feito com carinho, estudo e ✨ café.
 
-> **Resposta do bot:**  
-> "Temos três planos: Básico (R$29), Premium (R$59) e Profissional (R$99). Todos aceitam Pix, cartão e boleto."
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-smartbot-gpt-whatsapp/
-├── app.py
-├── .env
-├── README.md
-└── data/
-    └── infos_produto.txt
-```
-
----
-
-## 🛠️ Tecnologias Usadas
-
-- Python 3  
-- Flask  
-- Google Generative AI (Gemini)  
-- Twilio (opcional para integração real com WhatsApp)  
-- `.env` para configuração segura da chave de API  
-
----
-
-## 🚀 Como executar localmente
-
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/MrsM21/smartbot-gpt-whatsapp.git
-cd smartbot-gpt-whatsapp
-```
-
-2. **Instale as dependências:**
-
-```bash
-pip install flask python-dotenv google-generativeai
-```
-
-3. **Crie o arquivo `.env` com sua chave da Gemini API:**
-
-```
-GOOGLE_API_KEY=sua-chave-aqui
-```
-
-4. **Adicione as informações do produto em:**
-
-```
-data/infos_produto.txt
-```
-
-5. **Execute o aplicativo:**
-
-```bash
-python app.py
-```
-
----
-
-## 📈 Próximas melhorias
-
-- [ ] Integração com PDFs usando LangChain  
-- [ ] Armazenamento de contatos (mini CRM)  
-- [ ] Versão com deploy gratuito (Replit, Render ou Railway)  
-- [ ] Interface web visual (Gradio ou Streamlit)  
-
----
-
-## Autor
-
-✍️ Projeto criado por [NeusaM21](https://github.com/NeusaM21) para fins educacionais...
-
-
----
-
-## 📝 Licença
-
-Este projeto está licenciado sob a [MIT License](./LICENSE). Use, adapte e compartilhe com créditos. 😉
+## 📝 Licença  
+Este projeto está sob a MIT License. Use, adapte e compartilhe — só não esquece os créditos. 😉
 
 
 
