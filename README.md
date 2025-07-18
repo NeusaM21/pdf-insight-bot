@@ -45,12 +45,12 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 
 pdf-insight-bot/
 ├── utils/
-│   └── leitor_pdf.py
+│    └── leitor_pdf.py
 ├── data/
-│   └── documents/
-│       ├── inteligencia_artificial.pdf
-│       ├── blockchain_no_mercado.pdf
-│       └── impacto_da_automacao.pdf
+│    └── documents/
+│        ├── inteligencia_artificial.pdf
+│        ├── blockchain_no_mercado.pdf
+│        └── impacto_da_automacao.pdf
 ├── teste_leitor_pdf.py
 ├── .env.example
 ├── README.md
@@ -94,10 +94,10 @@ pdf-insight-bot/
 
 ## 📈 Próximas melhorias
 
-[ ] Salvar a base vetorial (FAISS) em .pkl
-[ ] Interface web com Gradio ou Streamlit
-[ ] Versão online com deploy gratuito (Replit, Render)
-[ ] Integração com mini-CRM para armazenar perguntas e contatos
+* [ ] Salvar a base vetorial (FAISS) em .pkl
+* [ ] Interface web com Gradio ou Streamlit
+* [ ] Versão online com deploy gratuito (Replit, Render)
+* [ ] Integração com mini-CRM para armazenar perguntas e contatos
 
 ---
 
