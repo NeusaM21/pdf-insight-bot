@@ -1,5 +1,34 @@
-# Ignorar arquivos sensíveis e caches
-.env
-__pycache__/
-*.pyc
+# Ignorar arquivos sensíveis e de configuração local
+.env                # Variáveis de ambiente locais (NÃO devem ser versionadas!)
+
+# Ignorar caches e arquivos compilados do Python
+__pycache__/        # Pasta de cache de bytecode do Python
+*.pyc               # Arquivos de bytecode compilados
+*.pyd               # Módulos dinâmicos (Windows)
+*.so                # Módulos dinâmicos (Linux/macOS)
+.Python             # Diretório criado por alguns ambientes virtuais
+
+# Ignorar arquivos de ambiente virtual
+env/                # Diretório comum para ambiente virtual (ex: `python -m venv env`)
+venv/               # Outro diretório comum para ambiente virtual
+
+# Ignorar logs e arquivos de dados temporários
+*.log               # Arquivos de log
+*.sqlite3           # Bancos de dados SQLite (se usados como temporários)
+*.db                # Outros arquivos de banco de dados
+
+# Ignorar arquivos gerados por ferramentas/IDEs
+.vscode/            # Configurações do VS Code (opcional, se forem específicas do usuário)
+.idea/              # Configurações do PyCharm/IntelliJ
+*.sublime-project   # Projetos Sublime Text
+*.sublime-workspace # Workspaces Sublime Text
+.DS_Store           # Arquivos de metadados do macOS
+Thumbs.db           # Arquivos de miniaturas do Windows
+
+# Ignorar arquivos de dados gerados
+# Se 'requirements-full.txt' é um arquivo gerado automaticamente (ex: pip freeze > requirements-full.txt)
+# e não deve ser versionado, mantenha esta linha. Caso contrário, remova.
 requirements-full.txt
+
+# Ignorar notebooks Jupyter e seus checkpoints (se aplicável)
+.ipynb_checkpoints/
