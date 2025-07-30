@@ -69,16 +69,24 @@ python web_app.py
 
 ```
 pdf-insight-bot/
-├── utils/
-│    └── leitor_pdf.py
+├── assets/
+│ ├── demo-assistente-virtual-v2.gif
+│ └── pdf-insight-bot-terminal.gif
 ├── data/
-│    └── documents/
-│        ├── inteligencia_artificial.pdf
-│        ├── blockchain_no_mercado.pdf
-│        └── impacto_da_automacao.pdf
-├── teste_leitor_pdf.py
+│ └── documents/
+│ ├── inteligencia_artificial.pdf
+│ ├── blockchain_no_mercado.pdf
+│ └── impacto_da_automacao.pdf
+├── utils/
+│ └── leitor_pdf.py
 ├── .env.example
 ├── README.md
+├── README.en.md
+├── requirements.txt
+├── requirements-full.txt
+├── teste_leitor_pdf.py
+├── teste_gemini.py
+├── web_app.py
 └── capa.png
 ```
 ---
