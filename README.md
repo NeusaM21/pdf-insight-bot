@@ -44,7 +44,7 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 
 **Resposta:** O 📚 **TEMA** principal do documento é o impacto da 🧠 **TECNOLOGIA** blockchain no mercado e a regulamentação das moedas virtuais.
 
-![Exemplo de uso do PDF Insight Bot no terminal](assets/screenshots/exemplo_uso_terminal.png)
+![Demonstração do PDF Insight Bot no terminal](assets/pdf-insight-bot-terminal.gif)
 
 ---
 
