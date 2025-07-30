@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![LangChain](https://img.shields.io/badge/LangChain-✓-purple)
+![Gemini](https://img.shields.io/badge/Gemini_API-Google_AI-yellow?logo=google)
+![License](https://img.shields.io/github/license/NeusaM21/pdf-insight-bot)
+
 ![Capa do Projeto](capa.png)
 
 # 📄 PDF Insight Bot (com Gemini API)
