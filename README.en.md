@@ -66,18 +66,28 @@ python web_app.py
 
 ## 📂 Project Structure
 
+> 📌 Note: The filenames in the project remain in Portuguese to reflect the original structure. All usage instructions are fully translated.
+
 ```
 pdf-insight-bot/
-├── utils/
-│ └── leitor_pdf.py
+├── assets/
+│ ├── demo-assistente-virtual-v2.gif
+│ └── pdf-insight-bot-terminal.gif
 ├── data/
 │ └── documents/
 │ ├── inteligencia_artificial.pdf
 │ ├── blockchain_no_mercado.pdf
 │ └── impacto_da_automacao.pdf
-├── teste_leitor_pdf.py
+├── utils/
+│ └── leitor_pdf.py
 ├── .env.example
 ├── README.md
+├── README.en.md
+├── requirements.txt
+├── requirements-full.txt
+├── teste_leitor_pdf.py
+├── teste_gemini.py
+├── web_app.py
 └── capa.png
 ```
 ---
