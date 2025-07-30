@@ -47,6 +47,12 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 
 <img src="assets/demo-assistente-virtual.gif" alt="Demonstração do Assistente Virtual de Cursos" width="100%" />
 
+🎯 Teste essa versão com interface gráfica localmente:
+
+```bash
+python web_app.py
+```
+
 ---
 
 ## 💬 Exemplo de uso
