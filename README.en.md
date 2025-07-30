@@ -45,7 +45,7 @@ This project is an AI-powered PDF assistant that reads, understands, and answers
 
 ## 🎥 See the Assistant in Action
 
-<img src="assets/demo-assistente-virtual.gif" alt="Virtual Assistant Demo" width="100%" />
+![Virtual Assistant Demo](./assets/demo-assistente-virtual-v2.gif)
 
 🎯 Test this graphical interface version locally:
 
