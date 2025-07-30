@@ -1,3 +1,8 @@
+📖 Você está lendo a **versão em Português** desta descrição de projeto.  
+🇺🇸 English version available here: [README.en.md](README.en.md)
+
+---
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![LangChain](https://img.shields.io/badge/LangChain-✓-purple)
 ![Gemini](https://img.shields.io/badge/Gemini_API-Google_AI-yellow?logo=google)
