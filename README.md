@@ -31,15 +31,21 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 
 ## 💡 Funcionalidades
 
-✅ **Integração com a API Gemini** (Google AI)
-✅ Leitura de **múltiplos PDFs automaticamente**
-✅ Geração de **embeddings com LangChain e FAISS**
-✅ Respostas **contextuais** com base no conteúdo real dos PDFs
-✅ Destaque inteligente de palavras-chave no terminal
-✅ Projeto leve, didático e pronto para portfólio
+✅ **Integração com a API Gemini** (Google AI)  
+✅ Leitura de **múltiplos PDFs automaticamente**  
+✅ Geração de **embeddings com LangChain e FAISS**  
+✅ Respostas **contextuais** com base no conteúdo real dos PDFs  
+✅ Destaque inteligente de palavras-chave no terminal  
+✅ Projeto leve, didático e pronto para portfólio  
 
-✨ **Funcionalidade extra:**
+✨ **Funcionalidade extra:**  
 ✅ Destaque visual no terminal com palavras-chave como **Tema, Tecnologia, Setor** para facilitar a leitura da resposta da IA.
+
+---
+
+## 🎥 Veja o Assistente em Ação
+
+<img src="assets/demo-assistente-virtual.gif" alt="Demonstração do Assistente Virtual de Cursos" width="100%" />
 
 ---
 
