@@ -10,7 +10,7 @@
 
 ![Capa do Projeto](capa.png)
 
-# 📄 PDF Insight Bot (com Gemini API)
+# 📄 PDF Insight Bot — Assistente Inteligente de PDFs com Gemini API
 
 Este projeto é um **agente inteligente de PDF** que lê, entende e responde perguntas sobre documentos, usando o modelo **Gemini 1.5 Flash da Google AI**. Ideal para estudar IA aplicada, criar portfólio ou até mesmo automatizar atendimento com base em documentos técnicos e comerciais.
 
@@ -67,6 +67,8 @@ python web_app.py
 
 ## 📂 Estrutura do Projeto
 
+> 📌 Observação: Os nomes dos arquivos permanecem em português para refletir a estrutura original. Todas as instruções estão traduzidas e bem explicadas.
+
 ```
 pdf-insight-bot/
 ├── assets/
@@ -101,7 +103,7 @@ pdf-insight-bot/
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/MrsM21/pdf-insight-bot.git](https://github.com/MrsM21/pdf-insight-bot.git)
+    git clone https://github.com/MrsM21/pdf-insight-bot.git
     cd pdf-insight-bot
     ```
 
