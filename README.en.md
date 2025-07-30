@@ -1,5 +1,5 @@
-🇧🇷 Versão em Português: [README.md](README.md)  
-📖 You’re reading the **English version** of this project description.
+📖 You’re reading the **English version** of this project description.  
+🇧🇷 Versão em Português disponível aqui: [README.md](README.md)
 
 ---
 
@@ -8,11 +8,11 @@
 ![Gemini](https://img.shields.io/badge/Gemini_API-Google_AI-yellow?logo=google)
 ![License](https://img.shields.io/github/license/NeusaM21/pdf-insight-bot)
 
-![Project Banner](capa.png)
+![Project Cover](capa.png)
 
 # 📄 PDF Insight Bot (with Gemini API)
 
-This project is an **intelligent PDF agent** that reads, understands, and answers questions about documents using **Google AI’s Gemini 1.5 Flash model**. Perfect for studying applied AI, building your portfolio, or even automating support based on technical or commercial PDFs.
+This project is an AI-powered PDF assistant that reads, understands, and answers questions about documents using **Google AI’s Gemini 1.5 Flash model**. Perfect for studying applied AI, building portfolio projects, or even automating support based on technical and business documents.
 
 ---
 
@@ -23,7 +23,7 @@ This project is an **intelligent PDF agent** that reads, understands, and answer
 * [📂 Project Structure](#-project-structure)
 * [🛠️ Technologies Used](#️-technologies-used)
 * [🚀 How to Run Locally](#-how-to-run-locally)
-* [📈 Future Improvements](#-future-improvements)
+* [📈 Next Improvements](#-next-improvements)
 * [✍️ Author](#️-author)
 * [📝 License](#-license)
 
@@ -32,15 +32,26 @@ This project is an **intelligent PDF agent** that reads, understands, and answer
 ## 💡 Features
 
 ✅ **Gemini API integration** (Google AI)  
-✅ Automatically reads **multiple PDFs**  
-✅ Embedding generation with **LangChain + FAISS**  
-✅ **Contextual answers** based on real PDF content  
-✅ **Smart keyword highlighting** in the terminal  
-✅ Lightweight, educational, and portfolio-ready
+✅ Reads **multiple PDFs automatically**  
+✅ Generates **embeddings with LangChain and FAISS**  
+✅ **Contextual responses** based on real PDF content  
+✅ Smart keyword highlighting in the terminal output 
+✅ Lightweight, beginner-friendly, and portfolio-ready
 
-✨ **Bonus feature:**  
-✅ Visual highlights in the terminal for keywords like **Topic, Technology, Industry** to make AI answers easier to read.
+✨ **Extra Feature:**  
+✅ Visual keyword highlights in the terminal (e.g., Topic, Technology, Sector) for better readability of AI responses.
 
+---
+
+## 🎥 See the Assistant in Action
+
+<img src="assets/demo-assistente-virtual.gif" alt="Virtual Assistant Demo" width="100%" />
+
+🎯 Test this graphical interface version locally:
+
+```bash
+python web_app.py
+```
 ---
 
 ## 💬 Usage Example
@@ -95,7 +106,7 @@ pdf-insight-bot/
     GEMINI_API_KEY=your-key-here
     ```
 
-4.  **Add your PDF files into:**
+4.  **Place your PDF files in:**
     `data/documents/`
 
 5.  **Run the test script:**
@@ -107,7 +118,7 @@ pdf-insight-bot/
 
 ## 📈 Future Improvements
 
-* [ ] Save FAISS vector database as `.pkl`
+* [ ] Save FAISS vector database as a .pkl file
 * [ ] Web interface with Gradio or Streamlit
 * [ ] Online version with free deploy (Replit, Render)
 * [ ] Integration with mini-CRM to store queries and contacts
@@ -116,7 +127,7 @@ pdf-insight-bot/
 
 ## ✍️ Author
 
-Project created by [**NeusaM21**](https://github.com/NeusaM21) as part of her Applied AI portfolio. Built with passion, study, and ✨ lots of coffee.
+Project created by [**NeusaM21**](https://github.com/NeusaM21) as part of her Applied AI portfolio. Built with passion, lots of learning, and ✨ an unhealthy amount of coffee.
 
 ---
 
