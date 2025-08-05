@@ -127,6 +127,8 @@ pdf-insight-bot/
 
 ---
 
+<a name="future-improvements"></a>
+
 ## 📈 Future Improvements
 
 * [ ] Save FAISS vector database as a .pkl file
