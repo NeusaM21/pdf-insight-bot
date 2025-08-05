@@ -25,6 +25,7 @@ Este projeto é um **agente inteligente de PDF** que lê, entende e responde per
 * [🚀 Como executar localmente](#-como-executar-localmente)
 * [📈 Próximas melhorias](#-próximas-melhorias)
 * [✍️ Autor](#️-autor)
+* [Fale Comigo 📬](#fale-comigo)
 * [📝 Licença](#-licença)
 
 ---
@@ -142,6 +143,14 @@ Projeto criado por [**NeusaM21**](https://github.com/NeusaM21) como parte do seu
 
 ---
 
+## Fale Comigo 📬
+
+📧 E-mail profissional: [Enviar e-mail](mailto:contact.neusam21@gmail.com)  
+🛡️ Disponível para freelas e colaborações!
+
+---
+
 ## 📝 Licença
 
 Este projeto está sob a [MIT License](https://github.com/NeusaM21/pdf-insight-bot/blob/main/LICENSE). Use, adapte e compartilhe — só não esquece os créditos. 😉
+
