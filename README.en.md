@@ -23,7 +23,7 @@ This project is an AI-powered PDF assistant that reads, understands, and answers
 * [📂 Project Structure](#-project-structure)
 * [🛠️ Technologies Used](#️-technologies-used)
 * [🚀 How to Run Locally](#-how-to-run-locally)
-* [📈 Next Improvements](#-next-improvements)
+* [📈 Future Improvements](#future-improvements)
 * [✍️ Author](#️-author)
 * [Contact Me 📬](#contact-me)
 * [📝 License](#-license)
