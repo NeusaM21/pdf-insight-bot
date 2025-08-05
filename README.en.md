@@ -25,6 +25,7 @@ This project is an AI-powered PDF assistant that reads, understands, and answers
 * [🚀 How to Run Locally](#-how-to-run-locally)
 * [📈 Next Improvements](#-next-improvements)
 * [✍️ Author](#️-author)
+* [Contact Me 📬](#contact-me)
 * [📝 License](#-license)
 
 ---
@@ -138,6 +139,15 @@ pdf-insight-bot/
 ## ✍️ Author
 
 Project created by [**NeusaM21**](https://github.com/NeusaM21) as part of her Applied AI portfolio. Built with passion, lots of learning, and ✨ an unhealthy amount of coffee.
+
+---
+
+<a name="contact-me"></a>
+
+## Contact Me 📬
+
+📧 Professional Email: [Send an Email](mailto:contact.neusam21@gmail.com)  
+🛡️ Open for freelance work and collaborations!
 
 ---
 
