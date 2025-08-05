@@ -143,10 +143,13 @@ Projeto criado por [**NeusaM21**](https://github.com/NeusaM21) como parte do seu
 
 ---
 
+<a name="fale-comigo"></a>
+
 ## Fale Comigo 📬
 
 📧 E-mail profissional: [Enviar e-mail](mailto:contact.neusam21@gmail.com)  
 🛡️ Disponível para freelas e colaborações!
+
 
 ---
 
