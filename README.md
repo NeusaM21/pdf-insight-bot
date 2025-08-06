@@ -157,3 +157,9 @@ Projeto criado por [**NeusaM21**](https://github.com/NeusaM21) como parte do seu
 
 Este projeto está sob a [MIT License](https://github.com/NeusaM21/pdf-insight-bot/blob/main/LICENSE). Use, adapte e compartilhe — só não esquece os créditos. 😉
 
+---
+
+## 🔙 Voltar
+
+[⬅️ Voltar para o portfólio principal](https://github.com/NeusaM21)
+
